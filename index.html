@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js-file.js" defer></script>
+</head>
+<body>
+    <div class="outer-box box">
+        <div class="header">Etch-a-Sketch</div>
+        <div class="inner-box box">
+            <div class="options">
+                <h2 class="options-header">Colors</h2>
+                <button class="color black selected-color">Black</button>
+                <button class="color rainbow">Rainbow</button>
+                <button class="color gray">Gray Scale</button>
+                <button class="reset">Clear Canvas</button>
+                <h3 class='options-header'>Canvas Size</h3>
+                <div class="size-container">
+                    <input class="size" type="range" min='1' max='100' value="16">
+                    <div class="size-text">16 x 16</div>
+                </div>
+            </div>
+            <div class="draw-container box"></div>
+        </div>
+        <div class="footer">Footer info here</div>
+    </div>
+</body>
+</html>
